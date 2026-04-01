@@ -1,40 +1,24 @@
 # -AI
 
-Cross-platform one-click installer scripts for:
+一键安装包下载：
 
-- OpenClaw API setup
-- Codex + Claude Code API setup
+- `00-START-HERE-下载说明.md`
 
-## OpenClaw Deploy Packages
-
-Download one of these ready-to-use bundles:
+## OpenClaw
 
 - `01-OpenClaw-Windows一键安装包.zip`
 - `02-OpenClaw-macOS一键安装包.zip`
 - `03-OpenClaw-Linux一键安装包.zip`
-- `00-OpenClaw-使用说明-先看这个.md`
 
-Each package already contains the matching installer script, shared
-`openclaw-api-setup.env`, and a user-facing usage guide.
+## Codex + Claude
 
-This repository intentionally includes only the installer project files from the local workspace.
-Desktop documents, PDFs, images, runtime folders, and local secret state are excluded.
+- `04-CodexClaude-Windows一键安装包.zip`
+- `05-CodexClaude-macOS一键安装包.zip`
+- `06-CodexClaude-Linux一键安装包.zip`
 
-## Files
+说明：
 
-- `install-openclaw-api.ps1`
-- `install-openclaw-api.sh`
-- `run-install-openclaw-api.cmd`
-- `run-install-openclaw-api.command`
-- `openclaw-api-setup.env`
-- `README-openclaw-one-click.md`
-- `Windows-install-codex-claude.ps1`
-- `macOS-Linux-终端版-安装Codex和Claude配置.sh`
-- `Windows-双击我-安装Codex和Claude配置.cmd`
-- `macOS-双击我-安装Codex和Claude配置.command`
-- `使用说明-先看这个.md`
-
-## Notes
-
-- No API keys or auth tokens are stored in this repository.
-- Users are prompted to enter their own credentials during setup.
+- 普通用户直接下载对应系统的 `.zip`
+- 不要用 `Code -> Download ZIP` 下载整个源码仓库
+- 每个 zip 内都已经包含脚本、配置文件和使用说明
+- 仓库内不保存任何用户自己的 API key 或 token

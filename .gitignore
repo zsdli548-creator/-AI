@@ -4,11 +4,15 @@
 # Keep repository metadata and docs.
 !.gitignore
 !README.md
+!00-START-HERE-下载说明.md
 !00-OpenClaw-使用说明-先看这个.md
 !使用说明-先看这个.md
 !01-OpenClaw-Windows一键安装包.zip
 !02-OpenClaw-macOS一键安装包.zip
 !03-OpenClaw-Linux一键安装包.zip
+!04-CodexClaude-Windows一键安装包.zip
+!05-CodexClaude-macOS一键安装包.zip
+!06-CodexClaude-Linux一键安装包.zip
 
 # Keep installer/config project files.
 !openclaw-api-setup.env
