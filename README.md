@@ -9,9 +9,10 @@ Cross-platform one-click installer scripts for:
 
 Download one of these ready-to-use bundles:
 
-- `OpenClaw-Windows-OneClick.zip`
-- `OpenClaw-macOS-OneClick.zip`
-- `OpenClaw-Linux-OneClick.zip`
+- `01-OpenClaw-Windows一键安装包.zip`
+- `02-OpenClaw-macOS一键安装包.zip`
+- `03-OpenClaw-Linux一键安装包.zip`
+- `00-OpenClaw-使用说明-先看这个.md`
 
 Each package already contains the matching installer script, shared
 `openclaw-api-setup.env`, and a user-facing usage guide.

@@ -4,11 +4,11 @@
 # Keep repository metadata and docs.
 !.gitignore
 !README.md
-!README-openclaw-one-click.md
+!00-OpenClaw-使用说明-先看这个.md
 !使用说明-先看这个.md
-!OpenClaw-Windows-OneClick.zip
-!OpenClaw-macOS-OneClick.zip
-!OpenClaw-Linux-OneClick.zip
+!01-OpenClaw-Windows一键安装包.zip
+!02-OpenClaw-macOS一键安装包.zip
+!03-OpenClaw-Linux一键安装包.zip
 
 # Keep installer/config project files.
 !openclaw-api-setup.env
