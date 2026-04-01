@@ -1,7 +1,19 @@
 @echo off
 setlocal
 
-"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0install-openclaw-api.ps1" %*
+set "SCRIPT_PATH=%~dp0install-openclaw-api.ps1"
+
+if not exist "%SCRIPT_PATH%" (
+    echo.
+    echo Cannot find the PowerShell installer script.
+    echo Expected:
+    echo   %~dp0install-openclaw-api.ps1
+    echo.
+    pause
+    exit /b 1
+)
+
+"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT_PATH%" %*
 set "EXIT_CODE=%ERRORLEVEL%"
 
 echo.
