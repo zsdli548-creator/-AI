@@ -5,6 +5,17 @@ Cross-platform one-click installer scripts for:
 - OpenClaw API setup
 - Codex + Claude Code API setup
 
+## OpenClaw Deploy Packages
+
+Download one of these ready-to-use bundles:
+
+- `OpenClaw-Windows-OneClick.zip`
+- `OpenClaw-macOS-OneClick.zip`
+- `OpenClaw-Linux-OneClick.zip`
+
+Each package already contains the matching installer script, shared
+`openclaw-api-setup.env`, and a user-facing usage guide.
+
 This repository intentionally includes only the installer project files from the local workspace.
 Desktop documents, PDFs, images, runtime folders, and local secret state are excluded.
 
